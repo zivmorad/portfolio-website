@@ -13,7 +13,7 @@
     padding: 10px;
     z-index: 10;
 }
-.nav-container :first-child{
+.home{
     position: absolute;
     left: 35px;
 }
@@ -31,13 +31,15 @@
 }
 
 @media(max-width: 500px){
-    .nav-container :first-child{
-        position: static;
+    .home{
+        position: relative;
+        left: 0;
     }
-    
+    .link{
+        display: none;
+    }
     .nav-container{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        justify-content: center;
     }
+
 }

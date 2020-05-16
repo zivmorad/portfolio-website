@@ -6,7 +6,7 @@ import {Link} from 'react-scroll'
 const Navbar=()=>{
     return(
         <div className='nav-container'>
-            <Link className='home link'
+            <Link className='home'
                 activeClass="active"
                 to="intro"
                 spy={true}
