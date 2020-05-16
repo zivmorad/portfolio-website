@@ -8,8 +8,4 @@
 body{
     --primary-color:rgb(0, 165, 14);
 }
-#root{
-    overflow: hidden;
-}
-
 
