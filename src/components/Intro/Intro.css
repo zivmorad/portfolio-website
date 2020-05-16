@@ -58,6 +58,9 @@
       text-align: center;
       justify-content: center;
     }
+    .intro-subtitle{
+        margin-left: 12px;
+    }
 }
 
 @media(max-width: 500px){
