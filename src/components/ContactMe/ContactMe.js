@@ -4,7 +4,7 @@ import bg3 from '../../img/bg3.png'
 const ContactMe=()=>{
     return(
         <div className='contact-me-container' id='contact-me'>
-            <h1 className='contact-title'><span>Contact</span> Me</h1>
+            <h1 className='contact-title'>Contact<span> Me</span></h1>
             <div className='contact-me'>
                 <img src={bg3} alt='error'/>
                 <div className='icons'>
