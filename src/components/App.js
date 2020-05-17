@@ -6,6 +6,7 @@ import AboutMe from './AboutMe/AboutMe'
 import Skills from './Skills/Skills'
 import ContactMe from './ContactMe/ContactMe'
 import Resume from './Resume/Resume'
+import Projects from './Projects/Projects'
 
 const App=()=>{
     return(
@@ -16,6 +17,7 @@ const App=()=>{
             <Skills/>
             <ContactMe/>
             <Resume/>
+            <Projects/>
         </div>
     )
 }
