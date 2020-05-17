@@ -7,7 +7,7 @@
     padding-bottom: 10px;
     margin: 50px auto;
     border-bottom: 1px solid var(--primary-color);
-    display: inline;
+    width: 50%;
 }
 .skills-title span{
     color: var(--primary-color);
@@ -43,5 +43,10 @@
 }
 .skill-icon-warp:hover :not(img){
     opacity: 1;
+}
+@media(max-width: 500px){
+    .skills-title{
+        display: inline;
+    }
 }
 
