@@ -32,20 +32,20 @@ const Navbar=()=>{
               >Skills</Link>
               <Link className='link'
                 activeClass="active"
-                to="contact-me"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={1000}
-              >Contact Me</Link>
-              <Link className='link'
-                activeClass="active"
                 to="resume"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={1000}
               >Resume</Link>
+              <Link className='link'
+                activeClass="active"
+                to="contact-me"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={1000}
+              >Contact Me</Link>
               <Link className='link'
                 activeClass="active"
                 to="projects"
