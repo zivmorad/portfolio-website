@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/protfolio-web/static/css/main.c109ecaa.chunk.css",
+    "main.js": "/protfolio-web/static/js/main.c3b9067a.chunk.js",
+    "main.js.map": "/protfolio-web/static/js/main.c3b9067a.chunk.js.map",
+    "runtime-main.js": "/protfolio-web/static/js/runtime-main.b53d621a.js",
+    "runtime-main.js.map": "/protfolio-web/static/js/runtime-main.b53d621a.js.map",
+    "static/js/2.1b7fbc2c.chunk.js": "/protfolio-web/static/js/2.1b7fbc2c.chunk.js",
+    "static/js/2.1b7fbc2c.chunk.js.map": "/protfolio-web/static/js/2.1b7fbc2c.chunk.js.map",
+    "index.html": "/protfolio-web/index.html",
+    "precache-manifest.ae189ab63cbb95ca9067d627f2ffd32d.js": "/protfolio-web/precache-manifest.ae189ab63cbb95ca9067d627f2ffd32d.js",
+    "service-worker.js": "/protfolio-web/service-worker.js",
+    "static/css/main.c109ecaa.chunk.css.map": "/protfolio-web/static/css/main.c109ecaa.chunk.css.map",
+    "static/js/2.1b7fbc2c.chunk.js.LICENSE.txt": "/protfolio-web/static/js/2.1b7fbc2c.chunk.js.LICENSE.txt",
+    "static/media/bg3.png": "/protfolio-web/static/media/bg3.b37c803f.png",
+    "static/media/item1.jpg": "/protfolio-web/static/media/item1.81f2cf22.jpg",
+    "static/media/item2.jpg": "/protfolio-web/static/media/item2.86cb5979.jpg",
+    "static/media/item3.jpg": "/protfolio-web/static/media/item3.edbdcf1c.jpg",
+    "static/media/item5.jpg": "/protfolio-web/static/media/item5.8be19dd9.jpg",
+    "static/media/item6.jpg": "/protfolio-web/static/media/item6.d4cf2048.jpg",
+    "static/media/ziv.jpg": "/protfolio-web/static/media/ziv.82909111.jpg",
+    "static/media/ziv1.jpg": "/protfolio-web/static/media/ziv1.aa7b011a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b53d621a.js",
+    "static/js/2.1b7fbc2c.chunk.js",
+    "static/css/main.c109ecaa.chunk.css",
+    "static/js/main.c3b9067a.chunk.js"
+  ]
+}
