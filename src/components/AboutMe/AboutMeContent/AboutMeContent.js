@@ -5,7 +5,7 @@ const AboutMeContent=()=>{
     return(
         <div className='about-me-contianer'>
             <p className='about-me-content'>I’m a 26 years old, second year student at H.I.T, front-end developer from Ashdod, Israel.
-                I create fun, innovative, accessible, and fast websites.</p>
+                 I create fun, innovative, accessible, and fast websites.</p>
             <br/>
             <p className='about-me-content'>Web development and creativity is my passion and i'm constantly upgrading my knowldge base.
                 I'm a well-organized problem solving, independent individual.

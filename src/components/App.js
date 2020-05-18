@@ -15,8 +15,8 @@ const App=()=>{
             <Intro/>
             <AboutMe/>
             <Skills/>
-            <ContactMe/>
             <Resume/>
+            <ContactMe/>
             <Projects/>
         </div>
     )

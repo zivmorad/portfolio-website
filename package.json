@@ -1,5 +1,5 @@
 {
-  "homepage": "http://zivmorad.github.io/protfolio-web",
+  "homepage": "http://zivmorad.github.io/protfolio-website",
   "name": "protfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,8 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

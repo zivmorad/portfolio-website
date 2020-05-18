@@ -18,7 +18,7 @@ const OnMe=()=>{
             <div className='on-me-content'>
                 <p><strong>Name:</strong> Ziv Morad</p>
                 <p><strong>Age:</strong> 26</p>
-                <p><strong>Institue:</strong> Holon Institue Of Technolog</p>
+                <p><strong>Institue:</strong> Holon Institue Of Technology</p>
                 <p><strong>Bachelor's Degree:</strong> Computer Science</p>
                 <p><strong>Location:</strong> Israel, Ashdod</p>
             </div>
