@@ -1,5 +1,5 @@
 ## Ziv Morad Portfolio
-- My protfolio website that represents me using ReactJS and CSS to improve my ReactJS and Css skills
+- My protfolio website that represents me to improve my ReactJS and Css skills
 
 ### Used Frameworks And Languages:
 - ReactJS
