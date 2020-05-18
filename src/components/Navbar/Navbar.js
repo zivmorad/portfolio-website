@@ -13,7 +13,7 @@ const Navbar=()=>{
                 smooth={true}
                 offset={-50}
                 duration={1000}
-              >Home</Link>
+              ><i className="fab fa-monero fa-2x"></i></Link>
               <Link className='link'
                 activeClass="active"
                 to="about-me"

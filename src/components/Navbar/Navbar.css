@@ -12,13 +12,16 @@
     font-weight: bold;
     padding: 10px;
     z-index: 10;
+    height: 55px;
+    font-size: large;
 }
 .home{
     position: absolute;
     left: 35px;
+    cursor: pointer;
 }
 .link{
-    margin-right: 30px;
+    margin-right: 25px;
     cursor: pointer;
 }
 
@@ -26,7 +29,7 @@
 
 @media(max-width: 600px){
     .link{
-        margin-right: 10px;
+        margin-right: 7px;
     }
 }
 
