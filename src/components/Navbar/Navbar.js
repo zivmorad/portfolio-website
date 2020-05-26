@@ -1,19 +1,20 @@
 import React from 'react'
 import './Navbar.css'
-import {Link} from 'react-scroll'
+import { Link, animateScroll as scroll } from "react-scroll";
+import logo from '../../img/zivLogo.png'
 
 
 const Navbar=()=>{
+    const scrollToTop = () => {
+      scroll.scrollToTop();
+    };
+
     return(
         <div className='nav-container'>
-            <Link className='home'
-                activeClass="active"
-                to="intro"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={1000}
-              ><i className="fab fa-monero fa-2x"></i></Link>
+              <img className='home'
+                src={logo}
+                alt='error'
+                onClick={scrollToTop}/>
               <Link className='link'
                 activeClass="active"
                 to="about-me"

@@ -12,13 +12,16 @@
     font-weight: bold;
     padding: 10px;
     z-index: 10;
-    height: 50px;
+    height: 55px;
     font-size: large;
+    align-items: center;
 }
+
 .home{
     position: absolute;
     left: 35px;
     cursor: pointer;
+    width: 40px;
 }
 .link{
     margin-right: 25px;
