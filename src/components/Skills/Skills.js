@@ -36,7 +36,7 @@ class Skills extends Component{
     render(){
         return(
             <div className='skills-container' id='skills'>
-                <h1 className='skills-title'>My <span>Skills</span></h1>
+                <h1 className='skills-title'><span>My</span> Skills</h1>
                 <div className='skill-list'>
                     {this.renderIcons()}
                 </div>

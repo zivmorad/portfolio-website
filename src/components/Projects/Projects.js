@@ -37,7 +37,7 @@ class Projects extends Component{
 
         return(
             <div className='project-container' id='projects'>
-                <h1 className='projects-title'><span>M</span>y <span>P</span>rojects</h1>
+                <h1 className='projects-title'><span>My</span> Projects</h1>
                 <div className='items'>
                     {this.renderProjects()}
                 </div>
