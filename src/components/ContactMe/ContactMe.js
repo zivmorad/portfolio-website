@@ -10,7 +10,7 @@ const ContactMe=()=>{
                 <div className='icons'>
                     <div className='section1'>
                         <i className="i location fas fa-map-marker-alt fa-3x"></i>
-                        <span>israel, ashdod</span>
+                        <span>Israel, Ashdod</span>
                         <br/>
                         <i className="i email far fa-envelope fa-3x"></i>
                         <span>moradziv1994@gmail.com</span> 
