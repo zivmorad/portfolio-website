@@ -1,3 +1,7 @@
+.contact-me-container{
+    max-width: 1000px;
+    margin: auto;
+}
 .contact-title{
     font-size: 60px;
     width: 50%;

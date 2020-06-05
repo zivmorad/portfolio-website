@@ -6,9 +6,16 @@ import img3 from '../../img/item3.jpg'
 import img4 from '../../img/item4.jpg'
 import img5 from '../../img/item5.jpg'
 import img6 from '../../img/item6.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 class Projects extends Component{
     
+    componentDidMount(){
+        Aos.init({duration:1500,
+            offset: 200});
+    }
+
     state={projects:[{projectName:'Portfolio Website',programLanguage:'React, Css',url:'https://github.com/zivmorad/protfolio-web',src:img1},
                      {projectName:'Movie Search', programLanguage:'React, Redux, css',url:'https://github.com/zivmorad/movie-search',src:img2},
                      {projectName:'Youtube Project',programLanguage:'React, Css' ,url:'https://github.com/zivmorad/youtube-project',src:img3},
@@ -36,7 +43,7 @@ class Projects extends Component{
     render(){
 
         return(
-            <div className='project-container' id='projects'>
+            <div className='project-container' id='projects' data-aos='fade-right'>
                 <h1 className='projects-title'><span>My</span> Projects</h1>
                 <div className='items'>
                     {this.renderProjects()}
