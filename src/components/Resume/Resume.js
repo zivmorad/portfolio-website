@@ -1,9 +1,17 @@
-import React from 'react';
+import React,{ useEffect} from 'react';
 import './Resume.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Resume=()=>{
+
+    useEffect(()=>{
+        Aos.init({duration:1500,
+            offset: 300});
+    },[])
+
     return(
-        <div className='resume-container' id='resume'>
+        <div className='resume-container' id='resume' data-aos='fade-right'>
             <div className='resume'>
                 <h1 className='resume-title'><span>Re</span>sume</h1>
                 <h3 className='section-title'> Education:</h3>
