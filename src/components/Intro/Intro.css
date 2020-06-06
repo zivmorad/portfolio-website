@@ -19,6 +19,9 @@
     font-weight: lighter;
     font-size: xxx-large;
 }
+.intro-title p{
+    font-weight: 600;
+}
 
 .intro-subtitle{
     background-color: var(--primary-color);
