@@ -52,6 +52,9 @@
 }
 
 @media(max-width: 626px){
+    #intro{
+        margin-top: 60px;
+    }
     .intro-img{
         width: 200px;
     }
@@ -64,11 +67,4 @@
     .intro-subtitle{
         margin-left: 12px;
     }
-}
-
-@media(max-width: 550px){
-    #intro{
-        margin-top: 60px;
-    }
-
 }
