@@ -58,12 +58,15 @@
         width: 200px;
     }
     .intro-container{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     }
     .intro-subtitle{
         margin-left: 12px;
+    }
+    .intro-title{
+        margin-left: 20px;
     }
 }
