@@ -1,19 +1,11 @@
-import React,{ useEffect } from 'react'
+import React from 'react'
 import './ContactMe.css'
 import bg3 from '../../img/bg3.png'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-
 
 const ContactMe=()=>{
 
-    useEffect(()=>{
-        Aos.init({duration:1500,
-            offset: 200});
-    },[])
-
     return(
-        <div className='contact-me-container' id='contact-me' data-aos='fade-left'>
+        <div className='contact-me-container' id='contact-me'>
             <h1 className='contact-title'>Contact<span> Me</span></h1>
             <div className='contact-me'>
                 <img src={bg3} alt='error'/>

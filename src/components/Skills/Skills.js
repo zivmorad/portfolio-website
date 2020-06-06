@@ -8,15 +8,8 @@ import java from './icons/java.png'
 import javaScript from './icons/javascript.png'
 import mySql from './icons/sql.png'
 import react from './icons/react.png'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 class Skills extends Component{
-
-    componentDidMount(){
-        Aos.init({duration:1500,
-            offset: 200});
-    }
 
     state={icons:[[c,'C'],
                   [cPlusPlus,'C++'],
@@ -41,7 +34,7 @@ class Skills extends Component{
 
     render(){
         return(
-            <div className='skills-container' id='skills' data-aos='fade-left'>
+            <div className='skills-container' id='skills' data-aos='fade-right'>
                 <h1 className='skills-title'><span>My</span> Skills</h1>
                 <div className='skill-list'>
                     {this.renderIcons()}
