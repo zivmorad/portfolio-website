@@ -62,11 +62,9 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    width: 200px;
     }
     .intro-subtitle{
         margin-left: 12px;
-    }
-    .intro-title{
-        margin-left: 20px;
     }
 }
