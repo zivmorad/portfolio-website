@@ -67,4 +67,7 @@
     .intro-subtitle{
         margin-left: 12px;
     }
+    .intro-title{
+     align-self: center;
+    }
 }
