@@ -23,7 +23,7 @@ const ContactMe=()=>{
                             <i className='i github fab fa-github fa-3x' onClick={()=>{window.open('https://github.com/zivmorad')}}></i>            
                             <i className='i linkedin fab fa-linkedin fa-3x' onClick={()=>{window.open('https://www.linkedin.com/in/ziv-morad-216a6a18a/')}}></i>    
                         </div>
-                        <button className='contact-btn'  onClick={() => window.open('https://docdro.id/bh7KNvu')}><i className="btn-icon fas fa-download fa-lg"></i>Download Resume</button>
+                        <button className='contact-btn'  onClick={() => window.open('https://docdro.id/bY3pc4Z')}><i className="btn-icon fas fa-download fa-lg"></i>Download Resume</button>
                     </div>
                 </div>
             </div>
