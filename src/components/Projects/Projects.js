@@ -6,10 +6,12 @@ import img3 from '../../img/item3.jpg'
 import img4 from '../../img/item4.jpg'
 import img5 from '../../img/item5.jpg'
 import img6 from '../../img/item6.jpg'
+import img7 from '../../img/item7.jpg'
 
 class Projects extends Component{
 
-    state={projects:[{projectName:'Portfolio Website',programLanguage:'React, Css',url:'https://github.com/zivmorad/protfolio-web',src:img1},
+    state={projects:[{projectName:'Portfolio Website',programLanguage:'React.js, Css',url:'https://github.com/zivmorad/protfolio-web',src:img1},
+                     {projectName:'Account Management',programLanguage:'node.js, React.js, MongoDB, Redux, Css',url:'https://github.com/zivmorad/account-management',src:img7},
                      {projectName:'Movie Search', programLanguage:'React, Redux, css',url:'https://github.com/zivmorad/movie-search',src:img2},
                      {projectName:'Youtube Project',programLanguage:'React, Css' ,url:'https://github.com/zivmorad/youtube-project',src:img3},
                      {projectName:'Hotel Website',programLanguage:'React, Css' ,url:'https://github.com/zivmorad/Hotel-website',src:img4},

@@ -8,6 +8,8 @@ import java from './icons/java.png'
 import javaScript from './icons/javascript.png'
 import mySql from './icons/sql.png'
 import react from './icons/react.png'
+import node from './icons/node.png'
+import mongoDB from './iconsmongoDB.png'
 
 class Skills extends Component{
 
@@ -18,7 +20,9 @@ class Skills extends Component{
                   [java,'Java'],
                   [javaScript,'Javascript'],
                   [mySql,'MySQL'],
-                  [react,'React']]
+                  [react,'React.js'],
+                  [node,'Node.js'],
+                  [mongoDB,'MongoDB']]
         }
 
     renderIcons=()=>{
