@@ -17,7 +17,7 @@ const Resume=()=>{
                             Second year in Computer Science degree at HIT.
                         </li>
                         <li>
-                            Programming languages: React.js, JavaScript, HTML, CSS, Java, SQL, C++, C.
+                            Programming languages: React.js, Node.js, MongoDB, SQL, JavaScript, HTML, CSS, Java, C++, C.
                         </li>
                     </ul>
                         <p>
