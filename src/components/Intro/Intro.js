@@ -8,7 +8,7 @@ const Intro=()=>{
             <div className='intro-container'>
                 <img className='intro-img' src={zivPic} alt='error'/>
                 <h1 className='intro-title'>Hi, I am <p> Ziv Morad</p></h1>
-                <p className='intro-subtitle'>Front-End Developer</p>
+                <p className='intro-subtitle'>Full-Stack Developer</p>
             </div>
         </div>
     )
